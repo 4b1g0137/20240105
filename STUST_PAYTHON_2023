@@ -1,8 +1,8 @@
 class Pet:
-    def __init__(self, Pet_id, name, weight):
+    def __init__(self, Pet_id, Pet_name, Pet_weight):
         self.Pet_id = Pet_id
-        self.name = Pet_name
-        self.weight =Pet_weight
+        self.Pet_name = Pet_name
+        self.Pet_weight =Pet_weight
  
     def introduce(self):
         print(f"我的寵物編號{self.Pet_id}，寵物的名字是{self.Pet_name}，寵物的體重是{self.Pet_weight}。")
